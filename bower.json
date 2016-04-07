@@ -1,0 +1,7 @@
+{
+  "name": "wiredep",
+  "dependencies": {
+    "angular-messages": "1.4.3",
+    "angular-resource": "1.4.3"
+  }
+}
