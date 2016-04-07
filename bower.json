@@ -1,5 +1,5 @@
 {
-  "name": "wiredep",
+  "name": "copy-files-from-index.html",
   "dependencies": {
     "angular-messages": "1.4.3",
     "angular-resource": "1.4.3"

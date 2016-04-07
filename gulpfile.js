@@ -1,8 +1,10 @@
 var gulp = require('gulp');
-var wiredep = require('gulp-wiredep');
+var useref = require('gulp-useref');
 
-gulp.task('wiredep', function () {
+gulp.task('useref', function () {
   gulp.src('./src/index.html')
-    .pipe(wiredep())
+    .pipe(useref({
+      noconcat:true
+    }))
     .pipe(gulp.dest('./www'));
 });

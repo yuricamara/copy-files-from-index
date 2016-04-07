@@ -1,8 +1,8 @@
 {
-  "name": "wiredep",
+  "name": "copy-files-from-index.html",
   "version": "1.0.0",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-wiredep": "0.0.0"
+    "gulp-useref": "^3.0.8"
   }
 }
